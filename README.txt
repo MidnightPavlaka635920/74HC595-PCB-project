@@ -1,0 +1,1 @@
+I postedd the Arduino 74HC595 library that you can use if you want. It's only problem is that it doesn't support DP. Now, I am making an PCB for that library. You can go and download the PCBs Gerber, BOM and COM.
