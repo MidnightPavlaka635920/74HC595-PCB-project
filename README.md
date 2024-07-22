@@ -5,6 +5,7 @@ This is an PCB schematic.
 Evrything that you need is:
 4x 7 Segment display;
 4x 74HC595 IC;
+4x 330 Ohm Resistors;
 1 Electrolyric capacitor 40uF, and
 some headers.
 
