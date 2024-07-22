@@ -8,5 +8,14 @@ Evrything that you need is:
 4x 330 Ohm Resistors;
 1 Electrolyric capacitor 40uF, and
 some headers.
+Code that should print on displays "1234":
+  #include "74HC595LED.h"
+  void setup (){
+    initReg(2, 3, 4);
+    Serial.begin(9600);
+  }
+  void loop (){
+    displayWrite("1234");  
+  }
 
-
+  If you have some problem with library, download it from https://github.com/MidnightPavlaka635920/74HC595_Library.
