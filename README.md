@@ -15,3 +15,4 @@ Code that should print on displays "1234":
 
 
   If you have some problem with library, download it from https://github.com/MidnightPavlaka635920/74HC595_Library.
+  November 12; 2024. --> Library update and Tested the PCB - It works! If you downloaded library before this day, redownload it!
