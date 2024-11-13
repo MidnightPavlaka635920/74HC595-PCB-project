@@ -10,3 +10,24 @@ This is an PCB with components:
 ![IMG_20241007_131746966](https://github.com/user-attachments/assets/2e85ade3-e14e-4cae-8e38-367d241fd512)
 If you have some problem with library, download it from https://github.com/MidnightPavlaka635920/74HC595_Library.
 November 12; 2024. --> Library update and Tested the PCB - It works! If you downloaded library before this day, redownload it!
+<br>
+## Code Example
+Here is one example how to show numbers with my library:
+
+```arduino
+// Pin definitions for your 74HC595 shift registers
+const int dataPina = 4;
+const int clockPina = 3;
+const int latchPina = 2;
+#include "74HC595LED.h"
+// Initialize the display by setting up pins
+void setup() {
+  initReg(latchPina, clockPina, dataPina);  // Initialize shift register pins
+  clearDisplay();  // Clear the display initially
+  delay(2000);
+  displayShowNumbers("8888", "...."); // Print "8.8.8.8." on display: 8888: numbers to show; "....": add dots after all segments
+}
+
+// Main loop to display numbers on the 4-digit 7-segment display
+void loop() {
+}
