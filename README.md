@@ -8,15 +8,5 @@ This is an PCB schematic.
 ![Screenshot from 2024-07-22 10-21-34](https://github.com/user-attachments/assets/21818ffd-96aa-44ea-a858-018ac6ffe923)
 This is an PCB with components:
 ![IMG_20241007_131746966](https://github.com/user-attachments/assets/2e85ade3-e14e-4cae-8e38-367d241fd512)
-Evrything that you need is:
-4x 7 Segment display;
-4x 74HC595 IC;
-4x 330 Ohm Resistors;
-1 Electrolyric capacitor 40uF, and
-some headers.
-Code that should print on displays "1234":
- Code1234.ino
-
-
-  If you have some problem with library, download it from https://github.com/MidnightPavlaka635920/74HC595_Library.
-  November 12; 2024. --> Library update and Tested the PCB - It works! If you downloaded library before this day, redownload it!
+If you have some problem with library, download it from https://github.com/MidnightPavlaka635920/74HC595_Library.
+November 12; 2024. --> Library update and Tested the PCB - It works! If you downloaded library before this day, redownload it!
