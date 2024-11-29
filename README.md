@@ -1,5 +1,5 @@
 # 74HC595 PCB project
-**Note:** You need to bridge wire across one pin segment and on pin on the IC if you downloaded PCCB before November 16, or you just bridge **F segment on second display to F output on the second shift register (Third set on schematics)** 
+**Note:** You need to bridge wire across one pin segment and on pin on the IC if you downloaded PCCB before November 16, or you just bridge **F segment on second display to F output on the second shift register (Third set on schematics) and DP of firdt segment to QH pin on 74HC595!** 
 ## About
 I postedd the Arduino 74HC595 library that you can use if you want. Now, I made an PCB for that library. You can go and download the PCBs Gerber, BOM and CSV.
 Files for PCB are above, ready to download. This PCB opens more abilities, then using multiplex.
