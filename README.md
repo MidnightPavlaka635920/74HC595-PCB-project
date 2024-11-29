@@ -1,4 +1,7 @@
+# 74HC595 PCB project
+<br>
 **Note:** You need to bridge wire across one pin segment and on pin on the IC if you downloaded PCCB before November 16, or you just bridge **F segment on second display to F output on the second shift register (Third set on schematics)** 
+<br>
 <br>
 I postedd the Arduino 74HC595 library that you can use if you want. It's only problem is that it doesn't support DP. Now, I am making an PCB for that library. You can go and download the PCBs Gerber, BOM and CSV.
 Files for PCB are above, ready to download. This PCB opens more abilities, then using multiplex. HOW TO WIRE IT PROPERLY: EXT. PS: There you connect 5V and GND of an External power supply(I will be using Prototype board power supply). For the arduino, it's a bit easier: You connect GND to Arduino's GND; Input, Clock and latch pin you specify in the code.
