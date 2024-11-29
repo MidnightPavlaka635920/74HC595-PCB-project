@@ -6,7 +6,11 @@ Files for PCB are above, ready to download. This PCB opens more abilities, then 
 ### How to wire it properly
 EXT. PS: There you connect 5V and GND of an External power supply(I will be using Prototype board power supply). For the arduino, it's a bit easier: You connect GND to Arduino's GND; Input, Clock and latch pin you specify in the code.
 ### Components
-74HC595 IC x4; 7 segment display x4; 470 or 330 ohm resistor x4; Capacitor 50-100 uF x1; Headers (male or female): 2-pin and 4-pin headers; That is it!
+74HC595 IC x4;
+<br>
+7 segment display x4;
+<br>
+470 or 330 ohm resistor x4; Capacitor 50-100 uF x1; Headers (male or female): 2-pin and 4-pin headers; That is it!
 ### Software
 Arduino IDE 1.8 or newer.
 ### Skills
